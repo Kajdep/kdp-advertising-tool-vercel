@@ -13,6 +13,6 @@ from main_supabase import app
 CORS(app, origins="*")
 
 # This is the entry point for Vercel
-def handler(request):
-    return app(request.environ, lambda status, headers: None)
+def handler(request, context):
+    return app
 

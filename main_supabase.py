@@ -33,6 +33,17 @@ app.register_blueprint(analysis_bp, url_prefix='/api/analysis')
 app.register_blueprint(optimization_bp, url_prefix='/api/optimization')
 app.register_blueprint(export_bp, url_prefix='/api/export')
 
+@app.route('/health')
+@app.route('/api/health')
+def health():
+    """Health check endpoint"""
+    return jsonify({
+        'status': 'healthy',
+        'service': 'KDP Advertising Tool API',
+        'version': '2.0.0',
+        'database': 'Supabase'
+    })
+
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
