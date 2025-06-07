@@ -7,12 +7,7 @@ This is the backend API for the KDP Advertising Tool, configured for deployment 
 Set these in your Vercel project settings:
 
 ```
-SUPABASE_URL=https://zdxllzexzlyaknakzvij.supabase.co
-SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpkeGxsemV4emx5YWtuYWt6dmlqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkyNzAzOTUsImV4cCI6MjA2NDg0NjM5NX0.pYXlejjHZAsrLeLMDZvZLuMys8MjZCAXiG1VECv7Xls
-SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpkeGxsemV4emx5YWtuYWt6dmlqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0OTI3MDM5NSwiZXhwIjoyMDY0ODQ2Mzk1fQ.DQri9eqhHE79q6KSoPrbueg4riJSx8s--oqbja7LwWM
-SECRET_KEY=kdp-advertising-tool-super-secret-key-2024
-FLASK_ENV=production
-```
+
 
 ## Deployment Instructions
 
